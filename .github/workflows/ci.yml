@@ -1,0 +1,31 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Need to fetch entire commit history to
+          # analyze every commit since last release
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          cache: npm
+          node-version: lts/*
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
+      - name: Install dependencies
+        run: pnpm install
+#      - run: npm test --if-present
+      # Branches that will release new versions are defined in .releaserc.json
+      # @TODO uncomment after verifying with --dry-run we're ready to go
+      # - run: npx semantic-release
+      - name: Run Semantic Release
+        run: npx semantic-release --dry-run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
