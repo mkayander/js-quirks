@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-#      - run: npm test --if-present
+      #      - run: npm test --if-present
       - name: Run Semantic Release
         run: npx semantic-release
         env:
