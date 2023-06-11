@@ -43,11 +43,8 @@ jobs:
         run: pnpm install
 
 #      - run: npm test --if-present
-      # Branches that will release new versions are defined in .releaserc.json
-      # @TODO uncomment after verifying with --dry-run we're ready to go
-      # - run: npx semantic-release
       - name: Run Semantic Release
-        run: npx semantic-release --dry-run
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
