@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/mkayander/js-quirks/compare/v1.1.0...v1.2.0) (2023-06-11)
+
+### Features
+
+- Imports formatting ([da3709b](https://github.com/mkayander/js-quirks/commit/da3709b79cf57046400e9ffbfb9267285e13a52d))
+- Installed prettier plugins ([05e9f0e](https://github.com/mkayander/js-quirks/commit/05e9f0ef442bf5dd003ae83f2f8cb62ff405fff2))
+- Update main page ([3c9e302](https://github.com/mkayander/js-quirks/commit/3c9e3026b67ef066c245ced4b96d788e3dea4a61))
+- Updated page metadata ([b28cfcd](https://github.com/mkayander/js-quirks/commit/b28cfcde78cc3fa48fd80ae07f47cd1b2838e088))
+
+### Bug Fixes
+
+- Removed unused import ([0cad5dd](https://github.com/mkayander/js-quirks/commit/0cad5dd47667414d50b043976305592d90d0e0eb))
+
 ## [1.1.0](https://github.com/mkayander/js-quirks/compare/v1.0.0...v1.1.0) (2023-06-11)
 
 ### Features
