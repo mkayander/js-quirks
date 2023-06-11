@@ -15,7 +15,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`flex min-h-screen flex-col justify-between ${inter.className}`}
+      >
+        <main>{children}</main>
+        <footer>
+          <div className="flex flex-col items-center justify-center py-8">
+            <p className="text-sm text-gray-500">
+              Made by{" "}
+              <a
+                href="https://github.com/mkayander"
+                target="_blank"
+                className="underline transition-colors hover:text-gray-300"
+              >
+                Max Kayander
+              </a>
+            </p>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }
