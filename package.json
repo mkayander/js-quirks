@@ -25,6 +25,8 @@
   "devDependencies": {
     "@sanity/semantic-release-preset": "^4.1.1",
     "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "semantic-release": "^21.0.5"
   }
 }
