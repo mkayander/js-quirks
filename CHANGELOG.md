@@ -5,6 +5,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/mkayander/js-quirks/compare/v1.0.0...v1.1.0) (2023-06-11)
+
+### Features
+
+- Added prettier IDE config file ([56c18dd](https://github.com/mkayander/js-quirks/commit/56c18dd0347340e3da93e669c4d2a40797e2ebd7))
+- Global code formatting ([fad93e5](https://github.com/mkayander/js-quirks/commit/fad93e5768daf4cea07aaa13749d666325e37909))
+- Installed prettier ([d07ea20](https://github.com/mkayander/js-quirks/commit/d07ea2034524b8365093335815c39a8290347466))
+- Updated dependencies ([3390f53](https://github.com/mkayander/js-quirks/commit/3390f5347744d73aafd6fe336759332d5b76da35))
+
 ## 1.0.0 (2023-06-11)
 
 ### Features
