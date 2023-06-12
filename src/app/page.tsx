@@ -7,20 +7,20 @@ export default function Home() {
         <h2 className="text-3xl">Choose a topic</h2>
       </div>
 
-      <div className="mb-32 grid space-x-8 text-center sm:mb-0 sm:grid-cols-4 sm:text-left">
+      <div className="mb-32 grid space-x-8 text-center sm:mb-0 sm:grid-cols-3 sm:text-left">
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className="mb-3 text-2xl font-semibold">
             Next.JS{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>
@@ -29,13 +29,13 @@ export default function Home() {
           href="/topic/hashing"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className="mb-3 text-2xl font-semibold">
             Hashing{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Learn about hashing and its applications.
           </p>
         </Link>

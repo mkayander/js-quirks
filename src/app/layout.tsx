@@ -16,11 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`flex min-h-screen flex-col justify-between ${inter.className}`}
+        className={`relative flex min-h-screen flex-col justify-between ${inter.className}`}
       >
-        <main>{children}</main>
+        <main className="flex grow">{children}</main>
         <footer>
-          <div className="flex flex-col items-center justify-center py-8">
+          <div className="flex flex-col items-center justify-center py-4">
             <p className="text-sm text-gray-500">
               Made by{" "}
               <a
