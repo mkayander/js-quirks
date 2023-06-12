@@ -1,0 +1,6 @@
+.ResizeHandleOuter {
+  /*background: transparent;*/
+  flex: 0 0 12px;
+  position: relative;
+  outline: none;
+}
