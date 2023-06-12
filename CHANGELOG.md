@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.2](https://github.com/mkayander/js-quirks/compare/v1.3.1...v1.3.2) (2023-06-12)
+
+### Bug Fixes
+
+- Fixed layout styles ([8329e28](https://github.com/mkayander/js-quirks/commit/8329e2865fb23199c1a95f195be051e78bfca2c6))
+
 ## [1.3.1](https://github.com/mkayander/js-quirks/compare/v1.3.0...v1.3.1) (2023-06-12)
 
 ### Bug Fixes
