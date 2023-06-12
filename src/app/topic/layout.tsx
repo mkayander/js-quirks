@@ -39,7 +39,7 @@ const TopicLayout: NextPage<TopicLayoutProps> = ({ children }) => {
           </ul>
         </nav>
       </header>
-      <section className="grow">
+      <section className="flex grow flex-col">
         <SplitPanelsLayout left={<LeftPanel />} right={children} />
       </section>
     </div>

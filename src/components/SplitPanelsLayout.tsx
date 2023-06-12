@@ -14,7 +14,11 @@ export const SplitPanelsLayout: React.FC<SplitPanelsLayoutProps> = ({
   right,
 }) => {
   return (
-    <PanelGroup autoSaveId="main-vertical-left" direction="horizontal">
+    <PanelGroup
+      autoSaveId="main-vertical-left"
+      direction="horizontal"
+      className="grow"
+    >
       <Panel defaultSize={30} order={1}>
         {left}
       </Panel>
