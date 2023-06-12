@@ -5,6 +5,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/mkayander/js-quirks/compare/v1.2.0...v1.3.0) (2023-06-12)
+
+### Features
+
+- Added simple topics page layout ([97a24d7](https://github.com/mkayander/js-quirks/commit/97a24d7828cd7fe61c225af89d92a1ad30d7ea66))
+- Added split layout components ([ded4858](https://github.com/mkayander/js-quirks/commit/ded4858f2a970ef6d579c9b2323b3f643635dbd9))
+- Installed resizable panels ([5f606d7](https://github.com/mkayander/js-quirks/commit/5f606d77a3b06a230f67bd5498b47d9079834bd4))
+
 ## [1.2.0](https://github.com/mkayander/js-quirks/compare/v1.1.0...v1.2.0) (2023-06-11)
 
 ### Features
