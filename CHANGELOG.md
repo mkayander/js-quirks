@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.3](https://github.com/mkayander/js-quirks/compare/v1.3.2...v1.3.3) (2023-06-13)
+
+### Bug Fixes
+
+- Removed unused media ([7f2c9e6](https://github.com/mkayander/js-quirks/commit/7f2c9e67e6df9eea2716e58d55c772242bcf47be))
+
 ## [1.3.2](https://github.com/mkayander/js-quirks/compare/v1.3.1...v1.3.2) (2023-06-12)
 
 ### Bug Fixes
