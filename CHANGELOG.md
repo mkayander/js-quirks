@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.0](https://github.com/mkayander/js-quirks/compare/v1.5.0...v1.6.0) (2023-06-16)
+
+### Features
+
+- Installed monaco editor ([1d1d1a3](https://github.com/mkayander/js-quirks/commit/1d1d1a3b6cfb3055e0027a5fa150840cc5ffe797))
+
 ## [1.5.0](https://github.com/mkayander/js-quirks/compare/v1.4.0...v1.5.0) (2023-06-15)
 
 ### Features
