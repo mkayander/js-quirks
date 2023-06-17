@@ -5,12 +5,37 @@ import { editor } from "monaco-editor";
 import { useState } from "react";
 import IStandaloneCodeEditor = editor.IStandaloneCodeEditor;
 
+const defaultCode = `import { useQuery } from "@trpc/react";
+import { ssr } from "client/trpc";
+
+export default function Home() {
+    const query = useQuery(["hello"]);
+    return (
+        <div>
+            <h1>hello world</h1>
+            <pre>{JSON.stringify(query.data, null, 4)}</pre>
+        </div>
+    );
+}
+
+export const getStaticProps = async () => {
+    const result = await ssr.query("hello");
+    return {
+        props: {
+            trpcState: ssr.getStaticPropsHelper(result),
+        },
+    };
+};
+`;
+
 type CodePanelProps = {
   title?: string;
 };
 
 export const CodePanel: React.FC<CodePanelProps> = () => {
   const [editor, setEditor] = useState<IStandaloneCodeEditor | null>(null);
+  const [codeInput, setCodeInput] = useState(defaultCode);
+
   return (
     <div>
       <Editor
@@ -22,6 +47,8 @@ export const CodePanel: React.FC<CodePanelProps> = () => {
             enabled: false,
           },
         }}
+        value={codeInput}
+        onChange={(value) => setCodeInput(value || "")}
         onMount={(editor, monaco) => {
           setEditor(editor);
           monaco.editor.defineTheme("myCustomTheme", {
