@@ -1,11 +1,7 @@
-import { SplitPanelsLayout } from "@/components";
+import { CodePanel, SplitPanelsLayout } from "@/components";
 import { NextPage } from "next";
 import Link from "next/link";
 import React from "react";
-
-const LeftPanel: React.FC = () => {
-  return <div className="flex flex-col px-6">Left</div>;
-};
 
 type NavLinkProps = {
   href: string;
@@ -40,7 +36,7 @@ const TopicLayout: NextPage<TopicLayoutProps> = ({ children }) => {
         </nav>
       </header>
       <section className="flex grow flex-col">
-        <SplitPanelsLayout left={<LeftPanel />} right={children} />
+        <SplitPanelsLayout left={<CodePanel />} right={children} />
       </section>
     </div>
   );
