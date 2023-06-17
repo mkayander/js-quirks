@@ -5,6 +5,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.0](https://github.com/mkayander/js-quirks/compare/v1.6.0...v1.7.0) (2023-06-17)
+
+### Features
+
+- Added default code snippet example ([b810ba5](https://github.com/mkayander/js-quirks/commit/b810ba5f5c451bf6180c789a7aeb0b2f568b2a78))
+- Display code panel component ([6d4ae25](https://github.com/mkayander/js-quirks/commit/6d4ae255bd003118a4251d95636fcc33f86163b3))
+- Implemented code panel component ([7847848](https://github.com/mkayander/js-quirks/commit/78478484448b4a82d92a31ae2e0517f3bc586f06))
+- Installed monaco editor types ([2980da2](https://github.com/mkayander/js-quirks/commit/2980da26be9f207d436e45f6ecf83d1001d8283e))
+
 ## [1.6.0](https://github.com/mkayander/js-quirks/compare/v1.5.0...v1.6.0) (2023-06-16)
 
 ### Features
