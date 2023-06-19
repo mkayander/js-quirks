@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.0](https://github.com/mkayander/js-quirks/compare/v1.8.0...v1.9.0) (2023-06-19)
+
+### Features
+
+- Added split panel media query ([5f409b0](https://github.com/mkayander/js-quirks/commit/5f409b03f183f10c39806b13b574b4bd4936e791))
+- Installed clsx ([9d5f41f](https://github.com/mkayander/js-quirks/commit/9d5f41fd20641c4967542037c0b2b75a3da601c4))
+
 ## [1.8.0](https://github.com/mkayander/js-quirks/compare/v1.7.0...v1.8.0) (2023-06-19)
 
 ### Features
