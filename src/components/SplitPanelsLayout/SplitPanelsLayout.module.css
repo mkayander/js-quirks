@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .panelGroup {
+    flex-direction: column !important;
+  }
+
+  .secondPanel {
+    overflow-y: auto !important;
+  }
+}

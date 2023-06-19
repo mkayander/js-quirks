@@ -3,6 +3,7 @@
 import { ResizeHandle } from "@/components/ResizeHandle/ResizeHandle";
 import React from "react";
 import { Panel, PanelGroup } from "react-resizable-panels";
+import styles from "./SplitPanelsLayout.module.css";
 
 type SplitPanelsLayoutProps = {
   left: React.ReactNode;
@@ -17,13 +18,15 @@ export const SplitPanelsLayout: React.FC<SplitPanelsLayoutProps> = ({
     <PanelGroup
       autoSaveId="main-vertical-left"
       direction="horizontal"
-      className="grow"
+      className={`${styles["panelGroup"]} grow`}
     >
       <Panel defaultSize={30} order={1}>
         {left}
       </Panel>
       <ResizeHandle />
-      <Panel order={2}>{right}</Panel>
+      <Panel className={styles["secondPanel"]} order={2}>
+        {right}
+      </Panel>
     </PanelGroup>
   );
 };
