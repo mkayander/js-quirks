@@ -5,6 +5,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.0](https://github.com/mkayander/js-quirks/compare/v1.7.0...v1.8.0) (2023-06-19)
+
+### Features
+
+- Implemented Switch component ([5556123](https://github.com/mkayander/js-quirks/commit/55561230836d4cf12d44210d1719da67b52e0b2d))
+- Installed React Three Fiber ([f9af30b](https://github.com/mkayander/js-quirks/commit/f9af30b3c0797686be8a4958138e691c7bec63a7))
+- Updated hashing components ([e91dce5](https://github.com/mkayander/js-quirks/commit/e91dce56cffb43ebb610ab4d0fd9852ca05126ba))
+
 ## [1.7.0](https://github.com/mkayander/js-quirks/compare/v1.6.0...v1.7.0) (2023-06-17)
 
 ### Features
