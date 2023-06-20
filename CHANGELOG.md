@@ -5,6 +5,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.0](https://github.com/mkayander/js-quirks/compare/v1.9.0...v1.10.0) (2023-06-20)
+
+### Features
+
+- Added IDE config file ([49c9e66](https://github.com/mkayander/js-quirks/commit/49c9e6690e691d16e624a534db97070cd9851345))
+- Added test 3D canvas ([c342b3c](https://github.com/mkayander/js-quirks/commit/c342b3c9914135261c2b07abcd60f38b8cb0ad78))
+- Installed postcss-import. Updated NextJS. ([af26897](https://github.com/mkayander/js-quirks/commit/af26897da2267c7c151a2a95c6674d885b458c19))
+- Reworked hashing circle components ([fd89025](https://github.com/mkayander/js-quirks/commit/fd89025cf1ea78dea839e2b1c4c4895f2c11e17c))
+- Updated global styles. Added button styles. ([e308936](https://github.com/mkayander/js-quirks/commit/e308936fd490459c71d98ecd7f1e1160a868b720))
+
+### Bug Fixes
+
+- Removed unused params ([069226a](https://github.com/mkayander/js-quirks/commit/069226ae482e4a17000071296b325e3b8732549c))
+
 ## [1.9.0](https://github.com/mkayander/js-quirks/compare/v1.8.0...v1.9.0) (2023-06-19)
 
 ### Features
