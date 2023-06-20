@@ -1,4 +1,4 @@
-import { HashCircle } from "@/components";
+import { HashCircleView } from "@/components/HashCircle/HashCircleView";
 import { NextPage } from "next";
 
 type TopicPageProps = {};
@@ -6,9 +6,9 @@ type TopicPageProps = {};
 const HashingPage: NextPage<TopicPageProps> = () => {
   return (
     <div className="flex flex-col items-center px-6">
-      <h1 className="mb-24 text-center text-5xl">Consistent Hashing</h1>
+      <h1 className="mb-12 text-center text-5xl">Consistent Hashing</h1>
 
-      <HashCircle />
+      <HashCircleView />
     </div>
   );
 };

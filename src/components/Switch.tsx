@@ -1,6 +1,7 @@
 import React from "react";
 
 export type SwitchProps = {
+  className?: string;
   checked: boolean;
   onChange: (checked: boolean) => void;
   label: string;
@@ -8,7 +9,7 @@ export type SwitchProps = {
 
 export const Switch: React.FC<SwitchProps> = ({ checked, onChange, label }) => {
   return (
-    <label className="relative inline-flex cursor-pointer items-center">
+    <label className="relative inline-flex h-fit w-fit cursor-pointer items-center">
       <input
         type="checkbox"
         value=""

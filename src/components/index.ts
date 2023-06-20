@@ -1,6 +1,4 @@
 export { CodePanel } from "./CodePanel";
-export { HashCircle } from "./HashCircle";
-export { HashItem } from "./HashItem";
 export { ResizeHandle } from "./ResizeHandle/ResizeHandle";
 export { SplitPanelsLayout } from "./SplitPanelsLayout/SplitPanelsLayout";
 export { Switch } from "./Switch";
