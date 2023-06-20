@@ -22,9 +22,9 @@ const Box = (props: any) => {
       {...props}
       ref={ref}
       scale={isClicked ? 1.5 : 1}
-      onClick={(event) => setIsClicked(!isClicked)}
-      onPointerOver={(event) => setIsHovered(true)}
-      onPointerOut={(event) => setIsHovered(false)}
+      onClick={() => setIsClicked(!isClicked)}
+      onPointerOver={() => setIsHovered(true)}
+      onPointerOut={() => setIsHovered(false)}
     >
       <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial color={isHovered ? "hotpink" : "orange"} />
@@ -32,10 +32,7 @@ const Box = (props: any) => {
   );
 };
 
-export const HashCircle3D: React.FC<HashCircleProps> = ({
-  size = 428,
-  items,
-}) => {
+export const HashCircle3D: React.FC<HashCircleProps> = ({ items }) => {
   return (
     <div className="h-[60vh] w-full">
       <Canvas>
