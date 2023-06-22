@@ -1,3 +1,4 @@
+import { Ripple } from "@/components/atoms/Ripple";
 import React from "react";
 
 type ButtonProps = React.DetailedHTMLProps<
@@ -14,7 +15,8 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button className={`btn btn-${variant}`} {...props}>
-      Reset
+      <Ripple />
+      {children}
     </button>
   );
 };
