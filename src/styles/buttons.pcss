@@ -1,5 +1,5 @@
 .btn {
-    @apply rounded px-4 py-2 font-bold transition-all duration-75 focus:ring-4 focus:outline-none;
+    @apply relative overflow-hidden rounded px-4 py-2 font-bold transition-all duration-100 focus:ring-4 focus:outline-none;
 }
 
 .btn-sm {
@@ -22,13 +22,11 @@
     @apply bg-blue-500 text-white;
 
     &:hover {
-        @apply bg-blue-400;
+        @apply bg-blue-500/90;
     }
+
     &:focus {
         @apply ring-blue-800/50;
-    }
-    &:active {
-        @apply bg-blue-500;
     }
 }
 
@@ -38,9 +36,11 @@
     &:hover {
         @apply bg-emerald-400;
     }
+
     &:focus {
         @apply ring-emerald-800/50;
     }
+
     &:active {
         @apply bg-emerald-500;
     }
@@ -52,9 +52,11 @@
     &:hover {
         @apply bg-red-400;
     }
+
     &:focus {
         @apply ring-red-800/50;
     }
+
     &:active {
         @apply bg-red-500;
     }
@@ -66,9 +68,11 @@
     &:hover {
         @apply bg-green-400;
     }
+
     &:focus {
         @apply ring-green-800/50;
     }
+
     &:active {
         @apply bg-green-500;
     }
@@ -80,9 +84,11 @@
     &:hover {
         @apply bg-yellow-400;
     }
+
     &:focus {
         @apply ring-yellow-800/50;
     }
+
     &:active {
         @apply bg-yellow-500;
     }
@@ -94,9 +100,11 @@
     &:hover {
         @apply bg-indigo-400;
     }
+
     &:focus {
         @apply ring-indigo-800/50;
     }
+
     &:active {
         @apply bg-indigo-500;
     }
