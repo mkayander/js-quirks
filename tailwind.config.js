@@ -12,6 +12,21 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        ripple: {
+          from: {
+            opacity: 1,
+            transform: "scale(0)",
+          },
+          to: {
+            opacity: 0,
+            transform: "scale(4)",
+          },
+        },
+      },
+      animation: {
+        ripple: "ripple 600ms linear forwards",
+      },
     },
   },
   plugins: [],
