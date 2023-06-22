@@ -1,6 +1,6 @@
 "use client";
 
-import { ResizeHandle } from "@/components/ResizeHandle/ResizeHandle";
+import { ResizeHandle } from "@/components/atoms/ResizeHandle/ResizeHandle";
 import React from "react";
 import { Panel, PanelGroup } from "react-resizable-panels";
 import styles from "./SplitPanelsLayout.module.css";

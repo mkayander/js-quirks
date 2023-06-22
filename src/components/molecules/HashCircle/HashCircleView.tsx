@@ -1,8 +1,9 @@
 "use client";
 
 import { Switch } from "@/components";
-import { HashCircle } from "@/components/HashCircle/HashCircle";
-import { HashCircle3D } from "@/components/HashCircle/HashCircle3D";
+import { Button } from "@/components/atoms/Button";
+import { HashCircle } from "@/components/molecules/HashCircle/HashCircle";
+import { HashCircle3D } from "@/components/molecules/HashCircle/HashCircle3D";
 import React, { useEffect, useState } from "react";
 import { HashCircleProps, HashItemData } from "./hashingTypes";
 
@@ -46,9 +47,7 @@ export const HashCircleView: React.FC<HashCircleProps> = ({ size = 428 }) => {
             onChange={setIsGenerating}
             label="Generate Hash Items"
           />
-          <button className="btn btn-primary" onClick={handleResetItems}>
-            Reset
-          </button>
+          <Button onClick={handleResetItems}>Reset</Button>
         </div>
         <Switch checked={is3DMode} onChange={setIs3DMode} label="3D" />
       </div>

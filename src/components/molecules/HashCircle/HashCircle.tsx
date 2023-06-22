@@ -1,4 +1,4 @@
-import { HashItem } from "@/components/HashCircle/HashItem";
+import { HashItem } from "@/components/molecules/HashCircle/HashItem";
 import React from "react";
 import { HashCircleProps } from "./hashingTypes";
 

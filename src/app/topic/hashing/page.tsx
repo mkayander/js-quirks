@@ -1,4 +1,4 @@
-import { HashCircleView } from "@/components/HashCircle/HashCircleView";
+import { HashCircleView } from "@/components/molecules/HashCircle/HashCircleView";
 import { NextPage } from "next";
 
 type TopicPageProps = {};
