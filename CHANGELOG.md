@@ -5,6 +5,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.0](https://github.com/mkayander/js-quirks/compare/v1.10.1...v1.11.0) (2023-06-22)
+
+### Features
+
+- Added custom ripple CSS animation ([409e8cc](https://github.com/mkayander/js-quirks/commit/409e8cc67701f042c4a28a411a7139d52e6ea3c5))
+- Added separate button atom component ([a019587](https://github.com/mkayander/js-quirks/commit/a019587271cc94a66535643a65e349a39c64200a))
+- Added universal Ripple component ([9f03a12](https://github.com/mkayander/js-quirks/commit/9f03a121bc1593aa36eeff2608ced9cf4c495d17))
+- Updated primary button styles ([f9ebdd0](https://github.com/mkayander/js-quirks/commit/f9ebdd0d6d507d93b3ad45f58046de3b3ee4edb6))
+- Use ripple component for the button ([d117a8f](https://github.com/mkayander/js-quirks/commit/d117a8fb303ee9e23bcbd6c9a3fce23c696ee385))
+
 ## [1.10.1](https://github.com/mkayander/js-quirks/compare/v1.10.0...v1.10.1) (2023-06-21)
 
 ### Bug Fixes
