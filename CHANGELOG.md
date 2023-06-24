@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.1](https://github.com/mkayander/js-quirks/compare/v1.11.0...v1.11.1) (2023-06-24)
+
+### Bug Fixes
+
+- Fixed buttons layout ([46ff797](https://github.com/mkayander/js-quirks/commit/46ff79725be1fb30af73f37929556f7a308e4425))
+- Fixed ripple effect ([b5e0642](https://github.com/mkayander/js-quirks/commit/b5e0642aa95f7bb62f55d29e906b691f8f2be71b))
+
 ## [1.11.0](https://github.com/mkayander/js-quirks/compare/v1.10.1...v1.11.0) (2023-06-22)
 
 ### Features
