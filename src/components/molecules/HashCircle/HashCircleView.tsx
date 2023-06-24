@@ -40,7 +40,7 @@ export const HashCircleView: React.FC<HashCircleProps> = ({ size = 428 }) => {
 
   return (
     <div className="flex w-full flex-col items-center space-y-8">
-      <div className="flex w-full flex-row flex-wrap justify-between">
+      <div className="flex w-full flex-row flex-wrap justify-between gap-4">
         <div className="flex flex-row items-center gap-12">
           <Switch
             checked={isGenerating}
