@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.0](https://github.com/mkayander/js-quirks/compare/v1.11.1...v1.12.0) (2023-06-24)
+
+### Features
+
+- Added simple circle 3D model ([e310225](https://github.com/mkayander/js-quirks/commit/e3102252af5245c62d4d24e664b0208b37b81c36))
+
 ## [1.11.1](https://github.com/mkayander/js-quirks/compare/v1.11.0...v1.11.1) (2023-06-24)
 
 ### Bug Fixes
