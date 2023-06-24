@@ -25,9 +25,6 @@ export const Ripple = () => {
 
   return (
     <span
-      style={{
-        animationName: "none",
-      }}
       className="ripple absolute block aspect-square w-full scale-0 animate-ripple rounded-full bg-white/30 opacity-0"
       onClick={handleClick}
     />
