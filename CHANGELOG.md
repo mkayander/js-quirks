@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.0](https://github.com/mkayander/js-quirks/compare/v1.12.0...v1.13.0) (2023-06-25)
+
+### Features
+
+- Updated blend file ([7faaa56](https://github.com/mkayander/js-quirks/commit/7faaa569ea590284afddc495960529e908ff3d42))
+
 ## [1.12.0](https://github.com/mkayander/js-quirks/compare/v1.11.1...v1.12.0) (2023-06-24)
 
 ### Features
