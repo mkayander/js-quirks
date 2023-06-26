@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.14.0](https://github.com/mkayander/js-quirks/compare/v1.13.0...v1.14.0) (2023-06-26)
+
+### Features
+
+- Added more 3D exports ([4a794d4](https://github.com/mkayander/js-quirks/commit/4a794d4dae960c65789e092fe8cea7babd0b4099))
+
 ## [1.13.0](https://github.com/mkayander/js-quirks/compare/v1.12.0...v1.13.0) (2023-06-25)
 
 ### Features
