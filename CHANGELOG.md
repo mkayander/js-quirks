@@ -5,6 +5,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.0](https://github.com/mkayander/js-quirks/compare/v1.14.0...v1.15.0) (2023-06-27)
+
+### Features
+
+- Display circle model ([432da2b](https://github.com/mkayander/js-quirks/commit/432da2bf172e421a3f41009156a4ccb47514d6ef))
+- Generated circle model component ([3242a24](https://github.com/mkayander/js-quirks/commit/3242a24db473fb3fa1c42c827450ba159dcf7be5))
+- Installed threejs libs ([09ce5fb](https://github.com/mkayander/js-quirks/commit/09ce5fb1a671ff23d01562577fef461ceff13c1b))
+
+### Bug Fixes
+
+- Moved assets to public dir ([d7bdf24](https://github.com/mkayander/js-quirks/commit/d7bdf24b312c531d2778bafd17fb58baa052afac))
+
 ## [1.14.0](https://github.com/mkayander/js-quirks/compare/v1.13.0...v1.14.0) (2023-06-26)
 
 ### Features
