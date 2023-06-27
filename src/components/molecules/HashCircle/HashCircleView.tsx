@@ -14,7 +14,7 @@ const getRandomDegree = () => {
 export const HashCircleView: React.FC<HashCircleProps> = ({ size = 428 }) => {
   const [items, setItems] = useState<HashItemData[]>([]);
   const [isGenerating, setIsGenerating] = useState(true);
-  const [is3DMode, setIs3DMode] = useState(false);
+  const [is3DMode, setIs3DMode] = useState(true);
 
   useEffect(() => {
     if (!isGenerating) return;
