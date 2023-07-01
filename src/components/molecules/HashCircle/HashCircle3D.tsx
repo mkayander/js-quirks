@@ -1,4 +1,4 @@
-import { CircleModel } from "@/components/3d-models/Circle";
+import { CircleModel } from "@/components/3d-models/Circle2";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import React, { useRef, useState } from "react";
@@ -38,8 +38,19 @@ export const HashCircle3D: React.FC<HashCircleProps> = ({ items }) => {
     <div className="h-[60vh] w-full">
       <Canvas>
         <ambientLight intensity={0.5} />
-        {/*<spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />*/}
-        {/*<pointLight position={[-10, -10, -10]} />*/}
+        <pointLight
+          intensity={4}
+          decay={2}
+          color="#bce4ff"
+          position={[3.592, 5.939, 3.134]}
+          rotation={[-1.839, 0.602, 1.932]}
+        />
+        <pointLight
+          intensity={1}
+          decay={2}
+          position={[-6.44, -5.881, 2.343]}
+          rotation={[-1.839, 0.602, 1.932]}
+        />
         <CircleModel />
         <OrbitControls
           minAzimuthAngle={Math.PI / -2.2}
