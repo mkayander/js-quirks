@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.18.0](https://github.com/mkayander/js-quirks/compare/v1.17.0...v1.18.0) (2023-07-24)
+
+### Features
+
+- Code formatting ([e7217c5](https://github.com/mkayander/js-quirks/commit/e7217c52a1401080cdab31e2ecda492ca3a3f023))
+
 ## [1.17.0](https://github.com/mkayander/js-quirks/compare/v1.16.0...v1.17.0) (2023-07-01)
 
 ### Features
