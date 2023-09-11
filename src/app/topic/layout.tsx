@@ -1,4 +1,4 @@
-import { CodePanel, SplitPanelsLayout } from "@/components";
+import { TopicSection } from "@/components/organisms/TopicSection";
 import { NextPage } from "next";
 import Link from "next/link";
 import React from "react";
@@ -36,7 +36,7 @@ const TopicLayout: NextPage<TopicLayoutProps> = ({ children }) => {
         </nav>
       </header>
       <section className="flex grow flex-col">
-        <SplitPanelsLayout left={<CodePanel />} right={children} />
+        <TopicSection>{children}</TopicSection>
       </section>
     </div>
   );
