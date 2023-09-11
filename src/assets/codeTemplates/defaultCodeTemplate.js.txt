@@ -1,0 +1,2 @@
+// Some placeholder code
+console.log("Hello JS Quirks World! 🚀");
