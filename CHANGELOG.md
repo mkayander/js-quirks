@@ -5,6 +5,26 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.19.0](https://github.com/mkayander/js-quirks/compare/v1.18.0...v1.19.0) (2023-09-11)
+
+### Features
+
+- Added .txt module type ([d0c6335](https://github.com/mkayander/js-quirks/commit/d0c633546b36c05fafc4f951a613b0a05f0e8480))
+- Added a link for the event loop topic ([5f16968](https://github.com/mkayander/js-quirks/commit/5f1696822df6b7563ef370ef31468c308bfb3f1a))
+- Added code runner context ([d2a6189](https://github.com/mkayander/js-quirks/commit/d2a6189f6f58704c7ef04861e831c9b4cbec81fb))
+- Added event-loop page ([6dff2f3](https://github.com/mkayander/js-quirks/commit/6dff2f38f820a5d42598433d34be48fcce5ed092))
+- Added separate code template txt files ([66acc11](https://github.com/mkayander/js-quirks/commit/66acc113749da22c966f9f820a3b0591699d0916))
+- Apply a passed-in code template ([2f473c6](https://github.com/mkayander/js-quirks/commit/2f473c62d72c1aec585b09947c31f50e0c46f68c))
+- Implemented a separate topic section component ([2de6d1f](https://github.com/mkayander/js-quirks/commit/2de6d1ff27f43dba184dab378b2f1d59f39e0db5))
+- Installed raw-loader ([7d88da8](https://github.com/mkayander/js-quirks/commit/7d88da89dcecf45aa5302b4bc2d933c3fc7d64ba))
+- Updated dependencies ([85afede](https://github.com/mkayander/js-quirks/commit/85afede1bbea83b18fb9caf5f505d34d313ffbbe))
+- Updated Next.js config ([07ba29d](https://github.com/mkayander/js-quirks/commit/07ba29d1165f487e660ba82e1eb1b764c35f26ca))
+- Use the new topic section component ([4cc09bd](https://github.com/mkayander/js-quirks/commit/4cc09bd00feb3bb6230e6644752e6ef2f4ce9c2b))
+
+### Bug Fixes
+
+- Import React global module ([637bf95](https://github.com/mkayander/js-quirks/commit/637bf95a47da2aca6b2232c1ff4ec0440185fc32))
+
 ## [1.18.0](https://github.com/mkayander/js-quirks/compare/v1.17.0...v1.18.0) (2023-07-24)
 
 ### Features
