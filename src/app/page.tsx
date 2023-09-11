@@ -7,7 +7,7 @@ export default function Home() {
         <h2 className="text-3xl">Choose a topic</h2>
       </div>
 
-      <div className="mb-32 grid gap-8 text-center sm:mb-0 sm:grid-cols-2 sm:text-left">
+      <div className="mb-32 grid gap-8 text-center sm:mb-0 sm:grid-cols-4 sm:text-left">
         <TopicItem
           href="https://nextjs.org/learn"
           title="Next.JS"
@@ -18,6 +18,12 @@ export default function Home() {
           href="/topic/hashing"
           title="Hashing"
           description="Learn about hashing and its applications."
+        />
+
+        <TopicItem
+          href="/topic/event-loop"
+          title="Event Loop"
+          description="JS event loop execution order."
         />
       </div>
     </div>
