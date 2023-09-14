@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.20.0](https://github.com/mkayander/js-quirks/compare/v1.19.0...v1.20.0) (2023-09-14)
+
+### Features
+
+- Implement a useDebounce hook ([253d359](https://github.com/mkayander/js-quirks/commit/253d3596def795b61112f55be56d8fe2ee53eb59))
+- Implement basic code execution with custom logging ([c1e9fc9](https://github.com/mkayander/js-quirks/commit/c1e9fc911679823afc6741ae93f5838389492243))
+
 ## [1.19.0](https://github.com/mkayander/js-quirks/compare/v1.18.0...v1.19.0) (2023-09-11)
 
 ### Features
